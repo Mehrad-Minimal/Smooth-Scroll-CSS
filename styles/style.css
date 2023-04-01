@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+
+/* SMOOTH SCROLL */
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  background-color: rgb(193, 69, 28);
+  min-height: 100vh;
+}
+
+section {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+section:nth-of-type(1) {
+  background-color: rgb(255, 241, 221);
+}
+
+section:nth-of-type(2) {
+  background-color: rgb(255, 219, 179);
+}
+
+section:nth-of-type(3) {
+  background-color: rgb(255, 204, 145);
+  padding-bottom: 5rem;
+}
+
+img {
+  width: 80%;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 0.2rem;
+  -webkit-box-shadow: 0rem 0.2rem 2rem -1rem rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0r0rem 0.2rem 2rem -1rem rgba(0, 0, 0, 1);
+  box-shadow: 0rem 0.2rem 2rem -1rem rgba(0, 0, 0, 1);
+  margin: 1rem 0;
+}
+
+.second-img {
+  object-position: bottom;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+#heading {
+  padding: 1rem 0rem;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.nav {
+  display: flex;
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: inline-flex;
+  margin-right: 1rem;
+  padding: 1rem 2rem;
+  background-color: rgb(238, 106, 4);
+  border-radius: 0.3rem;
+}
